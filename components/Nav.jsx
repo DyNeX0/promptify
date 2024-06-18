@@ -95,7 +95,7 @@ const Nav = () => {
                   My Profile
                 </Link>
                 <Link
-                  href="/create-prompt"
+                  href="/create_prompt"
                   className="dropdown_link"
                   onClick={() => setToggleDropdown(false)}
                 >
