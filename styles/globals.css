@@ -15,7 +15,6 @@
   display: flex;
   justify-content: center;
   padding: 120px 24px 160px 24px;
-  pointer-events: none;
 }
 
 .main:before {
@@ -90,7 +89,7 @@
 }
 
 .orange_gradient {
-  @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-pink-500 via-[#ffd966] to-[#668cff] bg-clip-text text-transparent;
 }
 
 .green_gradient {
@@ -102,7 +101,7 @@
 }
 
 .desc {
-  @apply mt-5 text-lg text-gray-600 sm:text-xl max-w-2xl;
+  @apply mt-5 text-lg text-gray-600 sm:text-xl;
 }
 
 .search_input {
